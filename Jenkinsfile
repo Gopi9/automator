@@ -3,7 +3,7 @@ pipeline {
     stages {
 	 stage('gradle build') {
               steps {
-              sh "./gradlew clean classes"
+              sh "sudo ./gradlew clean classes"
               }
          }
     }
